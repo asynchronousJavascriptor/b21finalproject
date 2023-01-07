@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#home{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+#home img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70vw;
+    height: 70vw;
+    border-radius: 50%;
+    z-index: 99999;
+    /* background-color: #fff; */
+}
+
+#circle img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#circle #top img{
+    transform: translate(-50%,-50%) rotate(-180deg);
+}
+
+
+#circle #top img:nth-child(1){
+    transform: translate(-50%,-50%) rotate(-180deg) scale(2);
+}
+
+#circle #top img:nth-child(2){
+    transform: translate(-50%,-50%) rotate(-180deg) scale(1.5);
+}
+
+#circle #btm img:nth-child(1){
+    transform: translate(-50%,-50%) scale(2);
+}
+
+#circle #btm img:nth-child(2){
+    transform: translate(-50%,-50%) scale(1.5);
+}
+
+#smcircle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 9999999;
+    width: 100%;
+    padding: 32px 50px;
+    background-color: #fff;
+}
+
+#btmnav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    z-index: 9999999;
+    width: 100%;
+    padding: 32px 50px;
+    background-color: #fff;
+}
+
+#nav h1{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Neue Haas Grotesk Text Pro";
+}
+
+#nav img{
+    width: 100px;
+}
+
+#btmnav img{
+    width: 90px;
+}
