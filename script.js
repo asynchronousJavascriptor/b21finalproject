@@ -19,3 +19,20 @@ tl
     scale: .6,
     ease: Power1
 }, "same")
+.to("#home #gallery", {
+    bottom: "-100%",
+    ease: Power1
+}, "same")
+.to("#cimage img", {
+    scale: 0,
+    ease: Power1
+}, "same")
+.to("#centerimg h5", {
+    opacity: 0,
+    ease: Power1
+}, "same")
+.to("#circp", {
+    top: "50%",
+    scale: 2,
+    ease: Power1
+}, "same")
