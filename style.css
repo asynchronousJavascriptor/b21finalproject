@@ -134,7 +134,7 @@ html,body{
     font-weight: 700;
     color: #777;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 1vw;
 }
 
 #cimage{
@@ -258,4 +258,66 @@ html,body{
     font-size: 30vw;
     color: #fff;
     z-index: 9999;
+}
+
+@media(max-width: 500px){
+    #nav{
+        padding: 20px;
+    }
+
+    #centerimg{
+        width: 80vw;
+    }
+
+    #centerimg h5{
+        font-size: 4vw;
+    }
+
+    #cimage{
+        height: 45vw;
+    }
+
+    #overlay>h1{
+        font-size: 15vw;
+        bottom: 10%;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    #circp{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    #sidepurple{
+        padding: 10vw 10vw 10vw 7vw;
+    }
+
+    #sidepurple img{
+        width: 75vw;
+    }
+
+    #circle{
+        width: 200vw;
+        height: 200vw;
+    }
+
+    #smcircle{
+        width: 125vw;
+        height: 125vw;
+    }
+
+    #btmnav{
+        padding: 20px;
+    }
+
+    #sbtm p{
+        width: 90%;
+        font-size: 6vw;
+    }
+
+    .circle{
+        width: 40vw;
+        height: 40vw;
+    }
 }
